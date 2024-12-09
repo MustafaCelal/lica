@@ -20,6 +20,7 @@
    * colors
    */
 
+  --myColor: #c7ebd5;
   --rich-black-fogra-29-1: hsl(215, 31%, 14%);
   --rich-black-fogra-29-2: hsl(230, 14%, 8%);
   --rich-black-fogra-39: hsl(158, 29%, 5%);
@@ -164,7 +165,10 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.container { padding-inline: 100px;
+
+
+}
 
 .section { padding-block: var(--section-padding); }
 
@@ -301,7 +305,7 @@ body {
 .logo {
   color: var(--rich-black-fogra-29-1);
   font-family: var(--ff-cuprum);
-  font-size: 33px;
+  font-size: 44px;
   font-weight: var(--fw-500);
   line-height: 1;
 }
@@ -312,6 +316,7 @@ body {
 }
 
 .navbar {
+  padding-inline: 100px;
   position: fixed;
   top: 0;
   left: -280px;
@@ -320,10 +325,12 @@ body {
   height: 100%;
   background-color: var(--rich-black-fogra-39);
   color: var(--white);
-  padding: 30px 20px;
+
   visibility: hidden;
   transition: 0.25s var(--cubic-out);
   z-index: 4;
+  justify-content: center;
+  display: flex;
 }
 
 .navbar.active {
@@ -963,14 +970,18 @@ body {
   .navbar .wrapper,
   .overlay { display: none; }
 
-  .header { padding: 20px; }
+  .header {padding: 20px;
+  background-color: var(--myColor);}
 
   .navbar,
   .navbar.active { all: unset; }
 
   .navbar-list {
+    padding-inline: 300px;
     display: flex;
     gap: 40px;
+    justify-content: center;
+    text-align: center;
   }
 
   .navbar-link {
