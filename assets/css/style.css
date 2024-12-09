@@ -1044,7 +1044,8 @@ body {
     align-items: center;
   }
 
-  .hero-subtitle { margin-inline: 25px 0; }
+  .hero-subtitle {
+    margin-inline: 10px 0; }
 
   .hero .btn-group { justify-content: flex-start; }
 
