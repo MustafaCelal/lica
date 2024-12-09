@@ -430,7 +430,11 @@ body {
 }
 
 .hero-banner,
-.hero-banner > img { border-radius: 50%; }
+.hero-banner > img {
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  padding: 0;}
 
 .hero-banner::before {
   top: 50%;
