@@ -39,6 +39,22 @@
    * typography
    */
 
+
+  @font-face {
+    font-family: "isim Font";
+    src: url("../fonts/BlackOpsOne-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "isim Font";
+    src: url("../fonts/BlackOpsOne-Regular.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  --ff-isim-Font: 'isim Font', cursive;
   --ff-poppins: 'Poppins', sans-serif;
   --ff-cuprum: 'Cuprum', sans-serif;
 
@@ -292,7 +308,8 @@ body {
 }
 
 .header.active {
-  background-color: var(--white);
+
+  background-color: var(--myColor);
   box-shadow: var(--shadow-2);
 }
 
@@ -304,7 +321,8 @@ body {
 
 .logo {
   color: var(--rich-black-fogra-29-1);
-  font-family: var(--ff-cuprum);
+  font-family: var(--ff-isim-Font);
+
   font-size: 44px;
   font-weight: var(--fw-500);
   line-height: 1;
