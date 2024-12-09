@@ -20,6 +20,7 @@
    * colors
    */
 
+
   --myColor: #c7ebd5;
   --rich-black-fogra-29-1: hsl(215, 31%, 14%);
   --rich-black-fogra-29-2: hsl(230, 14%, 8%);
@@ -991,6 +992,7 @@ body {
   /**
    * HEADER
    */
+
 
   .nav-open-btn,
   .navbar .wrapper,
