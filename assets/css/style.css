@@ -1155,6 +1155,63 @@ body {
     align-items: center;
   }
 
+  .services {
+    /* Genel bölüm stilleri */
+    padding: 50px 0; /* Örneğin, üst ve alt dolgu 50px */
+  }
+
+  .services-content {
+    /* İçerik alanı stilleri */
+    text-align: center; /* Metni ortala */
+  }
+
+  .section-title {
+    /* Başlık stilleri */
+    color: #333; /* Örneğin, koyu gri renk */
+    font-size: 32px;
+  }
+
+  .section-text {
+    /* Metin stilleri */
+    color: #666; /* Örneğin, açık gri renk */
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .services-list {
+    /* Liste stilleri */
+    list-style: none; /* Liste işaretlerini kaldır */
+    padding: 0;
+    margin: 30px 0; /* Örneğin, üst ve alt marjin 30px */
+  }
+
+  .services-list li {
+    /* Liste öğesi stilleri */
+    display: flex;
+    align-items: center; /* İkon ve metni dikey olarak ortala */
+    margin-bottom: 15px; /* Örneğin, alt marjin 15px */
+  }
+
+  .services-list ion-icon {
+    /* İkon stilleri */
+    color: green; /* Örneğin, yeşil renk */
+    font-size: 24px;
+    margin-right: 10px; /* Örneğin, sağ marjin 10px */
+  }
+
+  .services-banner {
+    /* Resim alanı stilleri */
+    margin-top: 50px; /* Örneğin, üst marjin 50px */
+  }
+
+  .btn-primary {
+    /* Buton stilleri */
+    background-color: #007bff; /* Örneğin, mavi renk */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+  }
 
 
   /**
