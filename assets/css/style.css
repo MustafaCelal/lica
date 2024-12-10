@@ -20,6 +20,7 @@
    * colors
    */
 
+  --myColorBlue: #daeffe;
   --myColor: #c7ebd5;
   --rich-black-fogra-29-1: hsl(215, 31%, 14%);
   --rich-black-fogra-29-2: hsl(230, 14%, 8%);
@@ -309,7 +310,7 @@ body {
 
 .header.active {
 
-  background-color: var(--myColor);
+  background-color: var(--myColorBlue);
   box-shadow: var(--shadow-2);
 }
 
@@ -996,14 +997,22 @@ body {
   .navbar .wrapper,
   .overlay { display: none; }
 
-  .header {padding: 20px;
-  background-color: var(--myColor);}
+  .header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+  background-color: var(--myColorBlue);}
 
   .navbar,
   .navbar.active { all: unset; }
 
   .navbar-list {
-    padding-inline: 300px;
+
+    margin-left: 50px;
+    padding-inline: 200px;
     display: flex;
     gap: 40px;
     justify-content: center;
