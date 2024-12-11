@@ -20,6 +20,7 @@
    * colors
    */
 
+  --myColorHoverBlue: #407bfe;
   --myColorBlue: #daeffe;
   --myColor: #c7ebd5;
   --rich-black-fogra-29-1: hsl(215, 31%, 14%);
@@ -270,7 +271,7 @@ body {
 .text-center { text-align: center; }
 
 .section-subtitle {
-  color: var(--go-green);
+  color: var(--myColorHoverBlue);
   font-weight: var(--fw-500);
 }
 
@@ -375,7 +376,7 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--go-green); }
+.navbar-link:is(:hover, :focus) { color: var(--myColorHoverBlue); }
 
 .overlay {
   position: fixed;
@@ -510,7 +511,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: var(--go-green);
+  background-color: var(--myColorHoverBlue);
 }
 
 .about .btn-group { justify-content: flex-start; }
@@ -548,12 +549,14 @@ body {
   box-shadow: var(--shadow-1);
 }
 
+/*what we offer cardlarin uzerine geldikten sonra*/
+
 .service-card::after {
   bottom: 0;
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--go-green);
+  background-color: var(--myColorBlue);
   transition: var(--transition-2);
 }
 
@@ -593,7 +596,7 @@ body {
   transition: var(--transition-2);
 }
 
-.features-card:hover { background-color: var(--go-green); }
+.features-card:hover { background-color: var(--myColorHoverBlue); }
 
 .features-card .card-number {
   position: absolute;
@@ -610,7 +613,7 @@ body {
   transition: var(--transition-1);
 }
 
-.features-card:hover .card-number { color: var(--go-green); }
+.features-card:hover .card-number { color: var(--myColorHoverBlue); }
 
 .features-card .card-title {
   font-size: var(--fs-6);
@@ -646,7 +649,7 @@ body {
 }
 
 .faq-card {
-  background-color: var(--go-green_5);
+  background-color: var(--myColorBlue);
   border-radius: var(--radius-5);
   overflow: hidden;
 }
@@ -667,7 +670,7 @@ body {
 }
 
 .faq-card .card-action:is(:hover, :focus, .active) {
-  --action-bg: var(--go-green);
+  --action-bg: var(--myColorHoverBlue);
   --color: var(--white);
 }
 
@@ -806,8 +809,8 @@ body {
 }
 
 .social-link:is(:hover, :focus) {
-  background-color: var(--go-green);
-  border-color: var(--go-green);
+  background-color: var(--myColorHoverBlue);
+  border-color: var(--myColorHoverBlue);
 }
 
 .footer-bottom {
@@ -823,7 +826,7 @@ body {
 
 .copyright-link {
   display: inline-block;
-  color: var(--go-green);
+  color: var(--myColorBlue);
   font-weight: var(--fw-500);
 }
 
@@ -838,7 +841,7 @@ body {
   transition: var(--transition-1);
 }
 
-.footer-bottom-link:is(:hover, :focus) { color: var(--go-green); }
+.footer-bottom-link:is(:hover, :focus) { color: var(--myColorHoverBlue); }
 
 
 
