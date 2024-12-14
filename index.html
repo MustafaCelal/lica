@@ -1,720 +1,627 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lica - Smart Ideas for your Brand are Here</title>
 
-    <!--
-      - favicon
-    -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Lica Medien</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!--
-      - custom css link
-    -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--
-      - google font link
-    -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-            href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
-            rel="stylesheet">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
 
-    <!--
-      - preload images
-    -->
-    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
 </head>
 
-<body>
-
-<!--
-  - #HEADER
--->
-
-<header class="header" data-header>
-    <div class="container">
-
-        <a href="#" class="logo">
-            <img src="assets/images/licaLatifinSevdigi.svg"  width="200" height="50">
-        </a>
-
-        <nav class="navbar" data-navbar>
-
-            <div class="wrapper">
-                <a href="#" class="logo">Lica</a>
-
-                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-                </button>
-            </div>
-
-            <ul class="navbar-list">
-
-                <li>
-                    <a href="#home" class="navbar-link" data-nav-link>Home</a>
-                </li>
-
-                <li>
-                    <a href="#about" class="navbar-link" data-nav-link>About</a>
-                </li>
-
-                <li>
-                    <a href="#services" class="navbar-link" data-nav-link>Services</a>
-                </li>
-
-                <li>
-                    <a href="#features" class="navbar-link" data-nav-link>Features</a>
-                </li>
-
-
-                <li>
-                    <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-
-        <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
-</header>
-
-
-<main>
-    <article>
-
-        <!--
-          - #HERO
-        -->
-
-        <section class="section hero" id="home" aria-label="hero">
-            <div class="container">
-
-                <div class="hero-content">
-
-                    <h1 class="h1 hero-title">Smart Ideas for your Brand are Here</h1>
-
-                    <p class="hero-text">
-                        Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que,
-                        vulputate ante
-                        quis, tempus
-                        enim. Proin quis euismod purus. Suspen disse efficitur
-                        aliquam enim sed consequat vulputate ante quis.
-                    </p>
-
-
-                </div>
-
-                <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
-                    <img src="./assets/images/mavi-uyumlu.svg" width="650" height="650" alt="hero banner"
-                         class="img-cover">
-                </figure>
-
-            </div>
-        </section>
-
-
-        <!--
-          - #ABOUT
-        -->
-
-        <section class="section about" id="about" aria-label="about">
-            <div class="container">
-
-                <figure class="about-banner">
-                    <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy"
-                         alt="about banner"
-                         class="w-100">
-                </figure>
-
-                <div class="about-content">
-
-                    <h2 class="h2-sm section-title">We create some things, Design for your success future.</h2>
-
-                    <p class="section-text">
-                        Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry
-                        has been
-                        the industrys
-                        standard dummy text ever.
-                    </p>
-
-                    <ul class="about-list">
-
-                        <li class="has-before">
-                            Price of additional materials or parts (if needed)
-                        </li>
-
-                        <li class="has-before">
-                            Transportation cost for carrying new materials/parts
-                        </li>
-
-                        <li class="has-before">
-                            You will get 100% money back offer.
-                        </li>
-
-                    </ul>
-
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!--
-          - #SERVICE
-        -->
-
-        <section class="section service" id="services" aria-label="service">
-            <div class="container">
-
-                <p class="section-subtitle text-center">-What We Offer-</p>
-
-                <h2 class="h2 section-title text-center">Our Creative Services</h2>
-
-                <p class="section-text text-center">
-                    Get the most of reduction in your team’s operating costs for the whole product which creates amazing
-                    UI/UX
-                    experiences.
-                </p>
-
-                <ul class="grid-list">
-
-                    <li>
-                        <div class="service-card has-after">
-
-                            <figure class="card-icon">
-                                <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
-                                     alt="UI/UX Creative Design" class="img">
-                            </figure>
-
-                            <div class="card-content">
-                                <h3 class="h3 card-title">UI/UX Creative Design</h3>
-
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget
-                                    luctlie gula and
-                                    adipiscing elit.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="service-card has-after">
-
-                            <figure class="card-icon">
-                                <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy"
-                                     alt="App Development"
-                                     class="img">
-                            </figure>
-
-                            <div class="card-content">
-
-                                <h3 class="h3 card-title">App Development</h3>
-
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget
-                                    luctlie gula and
-                                    adipiscing elit.
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="service-card has-after">
-
-                            <figure class="card-icon">
-                                <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
-                                     alt="Professional Content Writer" class="img">
-                            </figure>
-
-                            <div class="card-content">
-
-                                <h3 class="h3 card-title">Professional Content Writer</h3>
-
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget
-                                    luctlie gula and
-                                    adipiscing elit.
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="service-card has-after">
-
-                            <figure class="card-icon">
-                                <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy"
-                                     alt="Graphic Design"
-                                     class="img">
-                            </figure>
-
-                            <div class="card-content">
-
-                                <h3 class="h3 card-title">Graphic Design</h3>
-
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget
-                                    luctlie gula and
-                                    adipiscing elit.
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
-        </section>
-
-
-        <!--
-          - #FEATURES
-        -->
-
-        <section class="section features" id="features" aria-label="features">
-            <div class="container">
-
-                <p class="section-subtitle text-center">-Why Choose Us-</p>
-
-                <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
-
-                <p class="section-text text-center">
-                    Get the most of reduction in your team’s operating costs for the whole product which creates amazing
-                    UI/UX
-                    experiences.
-                </p>
-
-                <ul class="grid-list">
-
-                    <li>
-                        <div class="features-card">
-
-                            <data class="card-number" value="01">01</data>
-
-                            <h3 class="h3 card-title">Free Icon Plugin</h3>
-
-                            <p class="card-text">
-                                Nullam ullamcorper condimentum urna eu accumsan.
-                            </p>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="features-card">
-
-                            <data class="card-number" value="02">02</data>
-
-                            <h3 class="h3 card-title">Free 6 Month Support</h3>
-
-                            <p class="card-text">
-                                Nullam ullamcorper condimentum urna eu accumsan.
-                            </p>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="features-card">
-
-                            <data class="card-number" value="03">03</data>
-
-                            <h3 class="h3 card-title">Customer Strategy</h3>
-
-                            <p class="card-text">
-                                Nullam ullamcorper condimentum urna eu accumsan.
-                            </p>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="features-card">
-
-                            <data class="card-number" value="04">04</data>
-
-                            <h3 class="h3 card-title">Best Premimum Image</h3>
-
-                            <p class="card-text">
-                                Nullam ullamcorper condimentum urna eu accumsan.
-                            </p>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="features-card">
-
-                            <data class="card-number" value="05">05</data>
-
-                            <h3 class="h3 card-title">Most Advanced Features</h3>
-
-                            <p class="card-text">
-                                Nullam ullamcorper condimentum urna eu accumsan.
-                            </p>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="features-card">
-
-                            <data class="card-number" value="06">06</data>
-
-                            <h3 class="h3 card-title">Very Reasonable Price</h3>
-
-                            <p class="card-text">
-                                Nullam ullamcorper condimentum urna eu accumsan.
-                            </p>
-
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
-        </section>
-
-
-        <!--
-          - #FAQ
-        -->
-
-        <section class="section faq" aria-label="frequently asked questions">
-            <div class="container">
-
-                <div class="title-wrapper">
-                    <h2 class="h2 section-title">Discover Frequently Asked Questions?</h2>
-
-                </div>
-
-                <ul class="grid-list">
-
-                    <li>
-                        <div class="faq-card">
-
-                            <button class="card-action" data-accordion-action>
-                                <h1 class="h3 card-title">
-                                    01. Curious about how to build your own UX strategy? Here are five simple steps.
-                                </h1>
-
-                                <div class="action-icon">
-                                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
-                                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
-                                </div>
-                            </button>
-
-                            <div class="card-content">
-                                <p>
-                                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
-                                    diam vitae
-                                    posuere semper, libero ex
-                                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus
-                                    vehicula. Etiam sit
-                                    amet condimentum
-                                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi
-                                    aliquam quis quam in
-                                    luctus. Nullam
-                                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt
-                                    pulvinar imperdiet.
-                                    Sed varius, diam
-                                    vitae posuere semper.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="faq-card">
-
-                            <button class="card-action" data-accordion-action>
-                                <h3 class="h3 card-title">
-                                    02. Where Could a Career in UX Take You? Agency vs. In-House vs. Freelance?
-                                </h3>
-
-                                <div class="action-icon">
-                                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
-                                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
-                                </div>
-                            </button>
-
-                            <div class="card-content">
-                                <p>
-                                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
-                                    diam vitae
-                                    posuere semper, libero ex
-                                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus
-                                    vehicula. Etiam sit
-                                    amet condimentum
-                                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi
-                                    aliquam quis quam in
-                                    luctus. Nullam
-                                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt
-                                    pulvinar imperdiet.
-                                    Sed varius, diam
-                                    vitae posuere semper.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="faq-card">
-
-                            <button class="card-action" data-accordion-action>
-                                <h3 class="h3 card-title">
-                                    03. What Is a Problem Statement in UX? (And How To Write One?
-                                </h3>
-
-                                <div class="action-icon">
-                                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
-                                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
-                                </div>
-                            </button>
-
-                            <div class="card-content">
-                                <p>
-                                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
-                                    diam vitae
-                                    posuere semper, libero ex
-                                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus
-                                    vehicula. Etiam sit
-                                    amet condimentum
-                                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi
-                                    aliquam quis quam in
-                                    luctus. Nullam
-                                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt
-                                    pulvinar imperdiet.
-                                    Sed varius, diam
-                                    vitae posuere semper.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="faq-card">
-
-                            <button class="card-action" data-accordion-action>
-                                <h3 class="h3 card-title">
-                                    04. There are several techniques UX designers employ to arrive at a succinct?
-                                </h3>
-
-                                <div class="action-icon">
-                                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
-                                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
-                                </div>
-                            </button>
-
-                            <div class="card-content">
-                                <p>
-                                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
-                                    diam vitae
-                                    posuere semper, libero ex
-                                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus
-                                    vehicula. Etiam sit
-                                    amet condimentum
-                                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi
-                                    aliquam quis quam in
-                                    luctus. Nullam
-                                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt
-                                    pulvinar imperdiet.
-                                    Sed varius, diam
-                                    vitae posuere semper.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="faq-card">
-
-                            <button class="card-action" data-accordion-action>
-                                <h3 class="h3 card-title">
-                                    05. What are the obstacles users are facing? What are they trying to do?
-                                </h3>
-
-                                <div class="action-icon">
-                                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
-                                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
-                                </div>
-                            </button>
-
-                            <div class="card-content">
-                                <p>
-                                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
-                                    diam vitae
-                                    posuere semper, libero ex
-                                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus
-                                    vehicula. Etiam sit
-                                    amet condimentum
-                                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi
-                                    aliquam quis quam in
-                                    luctus. Nullam
-                                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt
-                                    pulvinar imperdiet.
-                                    Sed varius, diam
-                                    vitae posuere semper.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
-        </section>
-
-    </article>
-</main>
-
-
-<!--
-  - #FOOTER
--->
-
-<footer class="footer">
-
-    <div class="footer-top section">
-        <div class="container">
-
-            <div class="footer-brand">
-
-                <a href="#" class="logo">Lica</a>
-
-                <p class="footer-text">
-                    "Sie wünschen, wir machen es."
-                </p>
-
-            </div>
-
-            <ul class="footer-list"></ul>
-            <ul class="footer-list"></ul>
-            <ul class="footer-list">
-
-                <li>
-                    <p class="footer-list-title">Contact Us</p>
-                </li>
-
-                <li class="footer-item">
-                    <ion-icon name="location" aria-hidden="true"></ion-icon>
-
-                    <address class="contact-link address">
-                        Müliweg 178180 Bülach
-                    </address>
-                </li>
-
-                <li class="footer-item">
-                    <ion-icon name="call" aria-hidden="true"></ion-icon>
-
-                    <a href="tel:+41 76 624 45 86" class="contact-link">+41 76 624 45 86</a>
-                </li>
-
-                <li class="footer-item">
-                    <ion-icon name="mail" aria-hidden="true"></ion-icon>
-
-                    <a href="mailto:info@Lica.com" class="contact-link">info@lica.com</a>
-                </li>
-
-                <li class="footer-item">
-                    <ul class="social-list">
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-linkedin"></ion-icon>
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-            </ul>
-
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </div>
 
-    <div class="footer-bottom">
-        <div class="container">
 
-            <p class="copyright">
-                &copy; 2024 Lica | All Rights Reserved by <a href="#" class="copyright-link">lica</a>
-            </p>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-            <ul class="footer-bottom-list">
+        <div class="s-header__logo">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
+        </div>
 
-                <li>
-                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
-                </li>
+        <div class="s-header__content">
+    
+            <nav class="s-header__nav-wrap">
+                <ul class="s-header__nav">
+                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
+                    <!-- <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>    to do-->
+                </ul>
+            </nav> <!-- end s-header__nav-wrap -->
 
-                <li>
-                    <a href="#" class="footer-bottom-link">Terms of Use</a>
-                </li>
+            <a href="mailto:#0" class="btn btn--primary btn--small">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
+                Get In Touch
+            </a>
 
-            </ul>
+        </div> <!-- end header-content -->
+
+        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg">
+            <div class="gradient-overlay"></div>
+        </div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <h1>Grüezi.</h1>
+                <div class="s-hero__content-about">
+
+                    
+                    <p>
+                    Wir sind Flare.  Wir lieben es <br>
+                    großartige Marken und  <br>
+                    digitale Erlebnisse zu schaffen.
+                    </p>
+    
+                    <footer>
+                        <div class="s-hero__content-social">
+                            <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+                        </div>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="s-hero__video">
+            <a class="s-hero__video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0" data-lity="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                <span class="s-hero__video-text">Play Video</span>
+            </a>
+        </div>              video eklemek istersek-->
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                Scroll Down
+            </a>
+        </div>
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about">
+
+        <div class="horizontal-line"></div>
+
+        <div class="row">
+            <div class="column large-12">
+
+                <div class="section-title" data-num="01" data-aos="fade-up">
+                    <h3 class="h6">Who We Are</h3>
+                </div>
+
+            </div>
+
+            <div class="column large-6 w-900-stack s-about__intro-text">
+                <h1 class="display-1" data-aos="fade-up">
+                    Wir lassen Ihre Marke digital wachsen. Mit unserem Know-how in Webseiten und Social Media helfen wir Ihnen, online erfolgreich zu sein.
+                </h1>
+
+                <p class="lead" data-aos="fade-up">
+                    Wir sind eine Agentur, die sich auf Webseiten und Social-Media-Management spezialisiert hat.
+                     Wir entwickeln Strategien, erstellen Inhalte und übernehmen deren Verwaltung, um das Wachstum Ihrer Marke in der digitalen Welt zu fördern.
+                      Wir begleiten Sie auf Ihrem digitalen Weg zum Erfolg. 
+                </p>
+            </div>
+
+            <div class="column large-6 w-900-stack s-about__photo-block">
+                <div class="s-about__photo" data-aos="fade-up"></div>
+            </div>
+        </div>
+
+        <div class="row block-large-1-2 block-tab-full s-about__process item-list">
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Webanwendungen</h3>
+                <p>
+                    Wir entwickeln benutzerfreundliche und moderne Webanwendungen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind. Wir machen Ihre Website zu einem echten Werkzeug für geschäftlichen Erfolg, statt nur einer Online-Präsenz.
+
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Mobile Anwendungen</h3>
+                <p>
+                    Wir entwickeln schnelle, zuverlässige und innovative mobile Anwendungen für iOS und Android. Unsere Lösungen sorgen dafür, dass Ihr Unternehmen jederzeit und überall in der Tasche Ihrer Kunden präsent ist.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Social-Media-Management</h3>
+                <p>
+                    Wir erstellen und implementieren Strategien, um Ihre Marke effektiv in den sozialen Medien zu repräsentieren. Mit Content-Erstellung, Werbemanagement und Engagement-Optimierung sorgen wir für Ihren Erfolg.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Suchmaschinenoptimierung</h3>
+                <p>
+                    Wir bringen Ihre Website in den Suchmaschinen nach oben. Mit maßgeschneiderten SEO-Strategien steigern wir Ihre Sichtbarkeit und helfen Ihnen, Ihre Zielgruppe schneller zu erreichen.
+                </p>
+            </div>
+        </div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services">
+
+        <div class="row">
+            <div class="column large-12">
+                <div class="section-title" data-num="02" data-aos="fade-up">
+                    <h3 class="h6">Our Expertise</h3>
+                </div>
+            </div>
+            <!-- <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                    Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                    Quis dolores totam voluptatibus. 
+                </h1>
+            </div> -->
+            <!-- <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                Velit deleniti harum sit beatae sint repellendus expedita. Omnis possimus 
+                sed rerum tenetur ea ab aut minima magnam. Deserunt sit cupiditate 
+                similique eveniet earum. Consectetur dolores maxime quisquam voluptate magni.
+                Ut ex unde rem quod ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div> -->
+        </div>
+
+        <div class="row block-large-1-2 block-tab-full s-services__services item-list">
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--product-design"></span>
+                <h3 class="item-title">Produktdesign</h3>
+                <p>
+                    Wir entwickeln innovative und funktionale Produktdesigns für Ihr Unternehmen. Mit einem nutzerzentrierten Ansatz kombinieren wir Ästhetik und Funktionalität, um Ihre Produkte von der Konkurrenz abzuheben.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--branding"></span>
+                <h3 class="item-title">Backend-Entwicklung</h3>
+                <p>
+                    Wir gestalten robuste, zuverlässige und skalierbare Backend-Lösungen. Mit Datenverwaltung, API-Entwicklung und Performance-Optimierung legen wir das Fundament für Ihre Projekte.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--frontend"></span>
+                <h3 class="item-title">Frontend-Entwicklung</h3>
+                <p>
+                    Wir entwerfen moderne und benutzerfreundliche Interfaces. Mit Technologien wie HTML, CSS und JavaScript schaffen wir interaktive Web-Erlebnisse, die Ihre Marke widerspiegeln.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--research"></span>
+                <h3 class="item-title">UI/UX-Forschung</h3>
+                <p>
+                    Durch die Analyse von Nutzerverhalten gestalten wir funktionale und ansprechende Interfaces. Wir verbessern die Benutzererfahrung, um eine stärkere Bindung zu Ihrer Zielgruppe aufzubauen.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--illustration"></span>
+                <h3 class="item-title">SEO</h3>
+                <p>
+                    Wir steigern die Sichtbarkeit Ihrer Website in Suchmaschinen. Durch gezielte Keyword-Recherche und technische SEO-Strategien helfen wir Ihnen, organischen Traffic zu gewinnen.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--ecommerce"></span>
+                <h3 class="item-title">Social-Media-Management</h3>
+                <p>
+                    Wir entwickeln eine starke Markenpräsenz in sozialen Medien. Mit Content-Erstellung, Kampagnenmanagement und Analysen sorgen wir dafür, dass Sie mit Ihrer Zielgruppe in Kontakt bleiben.
+                </p>
+            </div>
+        </div>
+
+    </section> <!-- end s-services -->
+
+    <!-- <section id="portfolio" class="s-portfolio">
+
+        <div class="row s-porfolio__top">
+            <div class="column large-6 w-900-stack">
+                <div class="section-title" data-num="03" data-aos="fade-up">
+                    <h3 class="h6">Recent Works</h3>
+                </div>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                    Here are some of our projects we done lately. Feel
+                    free to check them out.
+                </h1>
+            </div> -->
+        <!-- </div> end s-portfolio__top -->
+
+        <!-- <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-red-wheel.jpg" title="The Red Wheel" data-size="1050x700">
+                            <img src="images/portfolio/red-wheel.jpg" 
+                                 srcset="images/portfolio/red-wheel.jpg 1x, images/portfolio/red-wheel@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Branding</div>
+                        <h4 class="folio-item__title">The Red Wheel</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div> -->
+            <!-- </div> end column -->
+            <!-- <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life.jpg" title="Music Life" data-size="1050x700">
+                            <img src="images/portfolio/music-life.jpg" 
+                                 srcset="images/portfolio/music-life.jpg 1x, images/portfolio/music-life@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Music Life</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div> -->
+            <!-- </div> end column -->
+            <!-- <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-oi-logo.jpg" Title="OI Logo" data-size="1050x700">
+                            <img src="images/portfolio/oi-logo.jpg.jpg" 
+                                 srcset="images/portfolio/oi-logo.jpg 1x, images/portfolio/oi-logo@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Branding</div>
+                        <h4 class="folio-item__title">OI Logo</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div> -->
+            <!-- </div> end column -->
+            <!-- <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-corrugated-sheets.jpg" title="Corrugated Sheets" data-size="1050x700">
+                            <img src="images/portfolio/corrugated-sheets.jpg" 
+                                 srcset="images/portfolio/corrugated-sheets.jpg 1x, images/portfolio/corrugated-sheets@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Corrugated Sheets</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div> -->
+                <!-- </div> -->
+            <!-- </div> end column -->
+            <!-- <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/woodcraft.jpg" 
+                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Wooocraft</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">
+                        Project Link
+                    </a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div> -->
+            <!-- </div> end column -->
+            <!-- <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
+                            <img src="images/portfolio/lamp.jpg" 
+                                 srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">The Lamp</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div> -->
+            <!-- </div> end column -->
+
+        <!-- </div> folio-list -->
+
+    <!-- </section> end s-portfolio -->
+
+
+    <!-- clients
+    ================================================== -->
+    <div id="clients" class="section s-clients">
+
+        <div class="row narrower s-clients__top h-text-center">
+            <div class="column">
+                <h1 class="display-1" data-aos="fade-up">
+                    Wir verfolgen für Sie die neuesten und aktuellsten Technologien
+                </h1>
+            </div>
+        </div> <!-- s-clients__top -->
+
+        <div class="row clients-outer">
+            <div class="column">
+                <div class="clients" data-aos="fade-up">
+                    
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/dropbox.svg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/atom.svg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/github.svg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/redhat.svg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/medium.svg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/messenger.svg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/steam.svg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/spotify.svg" /></a>
+                     
+                </div> <!-- end clients -->
+            </div> <!-- end column -->
+        </div> <!-- end clients-outer -->
+
+        <!-- <div class="row testimonials collapse">
+
+            <div class="column large-12">
+
+                <div class="testimonial-slider" data-aos="fade-up">
+
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                        Laudantium quia consequatur molestias delectus culpa.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Tim Cook</strong>
+                                <span>CEO, Apple</span>
+                            </cite>
+                        </div>
+                    </div> 
+    
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                        Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                        Quasi voluptas eius distinctio. Atque eos maxime.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Sundar Pichai</strong>
+                                <span>CEO, Google</span>
+                            </cite>
+                        </div>
+                    </div> 
+    
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                        Voluptatem dignissimos ut.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Satya Nadella</strong>
+                                <span>CEO, Microsoft</span>
+                            </cite>
+                        </div>
+                    </div>
+    
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
+                        quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
+                        Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Jeff Bezos</strong>
+                                <span>CEO, Amazon</span>
+                            </cite>
+                        </div>
+                    </div> 
+
+                </div>
+                
+            </div>
+
+        </div>  -->
+
+
+    </div> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section class="s-contact">
+
+        <div class="row narrower s-contact__top h-text-center">
+            <div class="column">
+                <h3 class="h6">Get In Touch</h3>
+                <h1 class="display-1">
+                    Hast du eine Idee oder ein episches Projekt im Kopf? Sprich mit uns. Lass uns gemeinsam etwas Großartiges schaffen. Schick uns eine Nachricht an
+                </h1>
+            </div>
+        </div> <!-- s-footer__top -->
+
+        <div class="row h-text-center">
+            <div class="column">
+                <p class="s-contact__email">
+                    <a href="mailto:#0">info@licamedien.com</a>
+                </p>
+            </div>
+        </div>
+
+    </section>  <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row row-y-top">
+
+            <div class="column large-8 medium-12">
+                <div class="row">
+                    <div class="column large-7 tab-12 s-footer__block">
+                            Wo du uns findest</h4>
+                            <h4 class="h6"></h4>
+        
+                        <p>
+                        Winterthur <br>
+                        <a href="tel:+41 78 900 24 48">+41 78 900 24 48</a>
+                        </p>
+                    </div>
+        
+                    <div class="column large-5 tab-12 s-footer__block">
+                        <h4 class="h6">Follow Us</h4 class="h6">
+        
+                        <ul class="s-footer__list">
+                            <li><a href="#0">Facebook</a></li>
+                            <li><a href="#0">Twitter</a></li>
+                            <li><a href="#0">Instagram</a></li>
+                            <li><a href="#0">Dribbble</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column large-4 medium-12 s-footer__block--end">
+                <a href="mailto:#0" class="btn h-full-width">Let's Talk</a>
+
+                <div class="ss-copyright">
+                    <span>Copyright Lica Medien 2025</span> 
+                    <span style="color: #d9073c;">Design by <a style="color: #d9073c;" href="https://www.styleshout.com/">StyleShout</a></span>
+                </div>
+            </div>
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    top
+                </a>
+            </div> <!-- end ss-go-top -->
 
         </div>
-    </div>
+    </footer>
+    
 
-</footer>
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-<!--
-  - custom js link
--->
-<script src="./assets/js/script.js"></script>
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
 
-<!--
-  - ionicon link
--->
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
