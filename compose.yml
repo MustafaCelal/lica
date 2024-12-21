@@ -1,0 +1,18 @@
+version: '4.37.1'
+
+services:
+  web:
+      build: .
+      ports:
+        - "8080:80"
+      restart: always
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-proxy
+    ports:
+      - "80:80" # 80 portu direkt dışarıya açılır
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - web
