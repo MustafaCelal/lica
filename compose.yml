@@ -1,9 +1,9 @@
 services:
   web:
-      build: .
-      ports:
-        - "8080:80"
-      restart: always
+    build: .
+    ports:
+      - "8080:80"
+    restart: always
 
   nginx:
     image: nginx:alpine
@@ -19,6 +19,8 @@ services:
 
   certbot:
     image: certbot/certbot
+    ports:
+      - "8081:80" # Certbot için geçici bir port
     volumes:
       - ./certs:/etc/letsencrypt # SSL sertifikaları
       - ./html:/var/www/html # Let's Encrypt doğrulaması için
