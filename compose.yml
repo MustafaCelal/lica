@@ -1,10 +1,5 @@
 services:
-  web:
-    build: .
-    ports:
-      - "8080:80"
-    restart: always
-
+  
   nginx:
     image: nginx:alpine
     container_name: nginx-proxy
@@ -13,14 +8,6 @@ services:
       - "443:443" # HTTPS
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf # Nginx ayarları
-      - ./certs:/etc/letsencrypt # SSL sertifikalarını saklama yeri
-    depends_on:
-      - web
-
-  certbot:
-    image: certbot/certbot
-    ports:
-      - "8081:80" # Certbot için geçici bir port
-    volumes:
-      - ./certs:/etc/letsencrypt # SSL sertifikaları
-      - ./html:/var/www/html # Let's Encrypt doğrulaması için
+      - ./certs:/etc/letsencrypt                    # SSL sertifikaları
+      - ./html:/usr/share/nginx/html               # Statik dosyalar
+    restart: always
