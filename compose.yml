@@ -8,6 +8,6 @@ services:
       - "443:443" # HTTPS
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf # Nginx ayarları
-      - ./certs:/etc/letsencrypt                    # SSL sertifikaları
+      - ../certs:/etc/letsencrypt                    # SSL sertifikaları
       - ./html:/usr/share/nginx/html               # Statik dosyalar
     restart: always
